@@ -1,0 +1,15 @@
+To run this project, you will need to do the following things:
+1)Copy the uncompressed htdocs folder into a web folder
+2)From the command line, go into the htdocs folder and type in php bin/chat-server.php
+3)Open up a browser and go to localhost/htdocs/index.php(change to an appropriate location on your own computer if necessary)
+4)Open up a second browser and go to the same location as above
+5)Type in 2 a in the text area, and then click send.
+6)Type in 2 b in the text area, then click send. Repeat this for 2 c, 2 d, 2 e. Notice that sometimes the text is sent to one browser, and sometimes to another. What is happening is that a random browser is chosen to store the text that you type in after typing in the 2.
+
+Some other things you may notice:
+1)I am using server side events to update the time
+2)I am using a background Worker object to count numbers
+3)I am using the ws protocol by using a Ratchet server
+4)I am used composer to install Ratchet
+5)I used JQuery
+
